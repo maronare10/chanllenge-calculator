@@ -1,0 +1,85 @@
+body {
+  display: grid;
+  justify-items: center;
+  /* align-items: center; */
+}
+
+.calculator {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+  grid-template-rows: repeat(5, 30px);
+  gap: 20px;
+}
+
+.button7 {
+  order: -5;
+}
+
+.button8 {
+  order: -4;
+}
+
+.button9 {
+order: -3;
+}
+
+.buttonDEL {
+  order: -2;
+}
+
+.button4 {
+  order: -1;
+}
+
+.button5 {
+  order: 0;
+}
+
+.button6 {
+  order: 1;
+}
+
+.buttonMas {
+  order: 2;
+}
+
+.button1 {
+  order: 3;
+}
+
+.button2 {
+  order: 4;
+}
+
+.button3 {
+  order: 5;
+}
+
+.buttonMenos {
+  order: 6;
+}
+
+.buttonPunto {
+  order: 7;
+}
+
+.button0 {
+  order: 8;
+}
+
+.buttonSlash {
+  order: 9;
+}
+
+.buttonX {
+  order: 10;
+}
+
+.buttonReset {
+  order: 11;
+}
+
+.buttonIgual {
+  order: 12;
+}
